@@ -9,9 +9,14 @@ import {
   UserButton,
 } from "@clerk/clerk-react";
 import { useState } from "react";
+import { CgClose } from "react-icons/cg";
 
 const Navbar = () => {
+  const location = false;
   const [openDropdown, setOpenDropdown] = useState(false);
+  const toggleDropdown = () => {
+    setOpenDropdown(!openDropdown);
+  };
   return (
     <div className="bg-white py-3 shadow-2xl">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
@@ -27,9 +32,21 @@ const Navbar = () => {
             <span className="font-semibold">
               {location ? <div></div> : "Add address"}
             </span>
-            <FaCaretDown />
+            <FaCaretDown onClick={toggleDropdown} />
           </div>
-          {openDropdown ? <div></div> : null}
+          {openDropdown ? (
+            <div className="w-[250px] h-max shadow-2xl z-50 bg-white fixed top-16 left-60 borde-2 p-5 border-gray-100 rounded-md ">
+              <h1 className="font-semibold mb-4 text-base flex justify-between items-center ">
+                Change Location
+                <span onClick={toggleDropdown}>
+                  <CgClose></CgClose>
+                </span>
+              </h1>
+              <button className="bg-red-500 text-white px-3 py-2 rounded-md w-full cursor-pointer hover:bg-red-400">
+                Detect Location
+              </button>
+            </div>
+          ) : null}
         </div>
 
         {/* menu section */}
