@@ -52,7 +52,7 @@ const Navbar = () => {
         {/* menu section */}
 
         <nav className="flex gap-7 items-center">
-          <ul className="flex gap-7 items-center text-xl font-semibold">
+          <ul className="flex gap-7 items-center text-[18px] font-semibold">
             <NavLink
               to={"/"}
               className={({ isActive }) =>

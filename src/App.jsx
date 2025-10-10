@@ -12,7 +12,7 @@ const App = () => {
   const getLocation = () => {
     navigator.geolocation.getCurrentPosition(async (pos) => {
       const { latitude, longitude } = pos.coords;
-      console.log("Lat:", latitude, "Lng:", longitude);
+      // console.log("Lat:", latitude, "Lng:", longitude);
 
       // Use CORS proxy to bypass the CORS issue
       const proxyUrl = "https://cors-anywhere.herokuapp.com/";
@@ -20,7 +20,7 @@ const App = () => {
 
       try {
         const response = await axios.get(proxyUrl + url);
-        console.log(response.data); // The location data
+        // console.log(response.data); // The location data
       } catch (error) {
         console.error("Error fetching location:", error);
       }
