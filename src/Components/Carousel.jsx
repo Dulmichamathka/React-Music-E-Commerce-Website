@@ -1,5 +1,5 @@
-import React, { useContext, useEffect } from "react";
-import { DataContext } from "../Context/DataContext";
+import React, { useEffect } from "react";
+import { getData } from "../Context/DataContext";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
@@ -7,9 +7,10 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
+import Category from "./Category";
 
 const Carousel = () => {
-  const { data, fetchAllProducts } = useContext(DataContext);
+  const { data, fetchAllProducts } = getData();
 
   useEffect(() => {
     fetchAllProducts();
@@ -55,7 +56,11 @@ const Carousel = () => {
                   <img
                     src={item.image}
                     alt={item.title}
-                    className="w-[400px] h-[400px] object-contain"
+                    style={{
+                      width: item.width,
+                      height: item.height,
+                    }}
+                    className="object-contain"
                   />
                 </div>
               </div>
@@ -75,6 +80,8 @@ const Carousel = () => {
           <AiOutlineArrowRight size={25} />
         </div>
       </div>
+
+      <Category />
     </div>
   );
 };

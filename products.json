@@ -1,0 +1,179 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Apple iPhone 15 Pro (256GB, Titanium Gray, A17 Pro Chip)",
+      "description": "Apple’s latest flagship with the A17 Bionic chip, titanium design, and advanced triple-camera system. Experience outstanding performance and all-day battery life.",
+      "price": 1199,
+      "category": "mobile",
+      "image": "/productsImages/iPhone 15 Pro.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "id": 2,
+      "title": "JBL Flip 6 Portable Bluetooth Speaker (Waterproof, Deep Bass, Black)",
+      "description": "Compact Bluetooth speaker delivering rich, punchy bass and clear audio. Waterproof and portable — perfect for parties or outdoor adventures.",
+      "price": 129,
+      "category": "audio",
+      "image": "/productsImages/JBL Flip 6 Speaker.png",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "id": 3,
+      "title": "Samsung Galaxy S23 (128GB, Phantom Black, 5G Android Smartphone)",
+      "description": "Premium Android smartphone featuring a stunning Dynamic AMOLED 2X display and pro-grade camera system. Built for smooth multitasking and 5G speed.",
+      "price": 999,
+      "category": "mobile",
+      "image": "/productsImages/Samsung Galaxy S23.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "id": 4,
+      "title": "Bose QuietComfort 45 Wireless Headphones (Noise Cancelling, Black)",
+      "description": "Experience deep, clear sound and world-class noise cancellation in a lightweight, comfortable design. Perfect for long listening sessions or work focus.",
+      "price": 329,
+      "category": "audio",
+      "image": "/productsImages/Bose QuietComfort 45.png",
+      "height": 500
+    },
+    {
+      "id": 5,
+      "title": "LG OLED 55-Inch 4K Smart TV (OLED55C3PUA, Dolby Vision, AI ThinQ)",
+      "description": "Experience lifelike colors and infinite contrast with LG’s 4K OLED display. Perfect for cinema lovers seeking exceptional picture quality and sleek design.",
+      "price": 1299,
+      "category": "tv",
+      "image": "/productsImages/LG OLED TV 55.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "id": 6,
+      "title": "Sony WH-1000XM5 Wireless Headphones (Noise Cancelling, Silver)",
+      "description": "Industry-leading noise-cancelling headphones with superb sound quality and 30-hour battery life. Ideal for music lovers and frequent travelers.",
+      "price": 399,
+      "category": "audio",
+      "image": "/productsImages/Sony WH-1000XM5.png",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "id": 7,
+      "title": "HP Pavilion 15 Laptop (Intel Core i5 13th Gen, 16GB RAM, 512GB SSD)",
+      "description": "Reliable everyday laptop featuring Intel Core i5 and fast SSD storage. Ideal for students and professionals needing smooth performance.",
+      "price": 749,
+      "category": "laptop",
+      "image": "/productsImages/HP Pavilion Laptop.png",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "id": 8,
+      "title": "Dell XPS 13 Laptop (Intel Core i7, 16GB RAM, 512GB SSD, InfinityEdge)",
+      "description": "Ultraportable laptop with an edge-to-edge InfinityEdge display and Intel Core i7 processor. Designed for professionals who value style and performance.",
+      "price": 1399,
+      "category": "laptop",
+      "image": "/productsImages/Dell XPS 13.png",
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": 9,
+      "title": "Sony 50-Inch 4K Ultra HD Smart TV (KD-50X85K, Google TV, HDR)",
+      "description": "Stunning 4K UHD display with HDR and smart TV features for seamless streaming. Enjoy vibrant colors and lifelike contrast in every frame.",
+      "price": 649,
+      "category": "tv",
+      "image": "/productsImages/Sony 4K TV 50.png"
+    },
+    {
+      "id": 10,
+      "title": "Sony PlayStation 5 Console (Disc Edition, 825GB SSD, DualSense Controller)",
+      "description": "Next-generation gaming console with ultra-fast SSD, immersive 4K graphics, and DualSense controller. Redefine your gaming experience with lightning speed.",
+      "price": 499,
+      "category": "gaming",
+      "image": "/productsImages/PlayStation 5.png"
+    },
+    {
+      "id": 11,
+      "title": "Microsoft Xbox Series X (1TB SSD, 4K Gaming Console, Wireless Controller)",
+      "description": "Microsoft’s most powerful console with true 4K gaming and fast load times. Play thousands of games from four generations of Xbox with rich graphics.",
+      "price": 499,
+      "category": "gaming",
+      "image": "/productsImages/Xbox Series X.png"
+    },
+    {
+      "id": 12,
+      "title": "Samsung 65-Inch QLED 4K Smart TV (QN65Q80C, Quantum HDR, Alexa Built-in)",
+      "description": "Vibrant 4K QLED display with quantum dots for brilliant colors and clarity. Enjoy cinematic visuals with HDR10+ and immersive surround sound.",
+      "price": 1499,
+      "category": "tv",
+      "image": "/productsImages/Samsung QLED TV 65.png"
+    },
+    {
+      "id": 13,
+      "title": "Dyson V11 Cordless Vacuum Cleaner (High Torque Cleaner Head, Blue)",
+      "description": "Cordless vacuum with intelligent suction power and advanced filtration system. Designed for deep cleaning carpets and hard floors effortlessly.",
+      "price": 599,
+      "category": "appliances",
+      "image": "/productsImages/Dyson V11 Vacuum.png"
+    },
+    {
+      "id": 14,
+      "title": "Instant Pot Duo 7-in-1 Electric Pressure Cooker (6 Quart, Stainless Steel)",
+      "description": "7-in-1 electric pressure cooker that saves time and space. Cook rice, soups, meats, and more — perfect for quick and healthy meals.",
+      "price": 99,
+      "category": "appliances",
+      "image": "/productsImages/Instant Pot Duo.png"
+    },
+    {
+      "id": 15,
+      "title": "Google Pixel 8 (128GB, Obsidian, Tensor G3 Chip, 50MP Camera)",
+      "description": "Flagship Android phone with AI-powered camera and Google Tensor G3 chip. Capture stunning photos in any light and enjoy smooth performance.",
+      "price": 799,
+      "category": "mobile",
+      "image": "/productsImages/Google Pixel 8.png"
+    },
+    {
+      "id": 16,
+      "title": "Asus ROG Strix G17 Gaming Laptop (Ryzen 9, RTX 4070, 1TB SSD, 17.3” 240Hz)",
+      "description": "High-performance gaming laptop with NVIDIA RTX graphics and fast refresh rate display. Built for gamers who demand ultimate speed and cooling.",
+      "price": 2199,
+      "category": "laptop",
+      "image": "/productsImages/Asus ROG Laptop.png"
+    },
+    {
+      "id": 17,
+      "title": "Nintendo Switch OLED Model (Neon Red/Blue Joy-Con, 7” Display)",
+      "description": "Play anywhere with this hybrid console that transitions from handheld to TV mode. Enjoy fun multiplayer gaming with family and friends.",
+      "price": 349,
+      "category": "gaming",
+      "image": "/productsImages/Nintendo Switch.png"
+    },
+    {
+      "id": 18,
+      "title": "Samsung 700L Double Door Refrigerator (Digital Inverter, Silver Finish)",
+      "description": "Modern double-door refrigerator with digital inverter technology for energy efficiency and consistent cooling performance. Sleek and spacious design.",
+      "price": 1099,
+      "category": "appliances",
+      "image": "/productsImages/Samsung Refrigerator.png"
+    },
+    {
+      "id": 19,
+      "title": "LG Soundbar SN6Y (3.1 Channel, 420W, Wireless Subwoofer, DTS Virtual:X)",
+      "description": "Enhance your home entertainment with crystal-clear sound and deep bass. Wireless subwoofer and Bluetooth connectivity included.",
+      "price": 279,
+      "category": "audio",
+      "image": "/productsImages/LG Soundbar.png"
+    },
+    {
+      "id": 20,
+      "title": "Apple MacBook Pro 16-Inch (M2 Pro Chip, 16GB RAM, 1TB SSD, Space Gray)",
+      "description": "Powerful laptop for creators and developers, featuring the Apple M2 Pro chip, Liquid Retina XDR display, and all-day battery life. Perfect for productivity and design work.",
+      "price": 2499,
+      "category": "laptop",
+      "image": "/productsImages/MacBook Pro 16.png"
+    }
+  ]
+}
