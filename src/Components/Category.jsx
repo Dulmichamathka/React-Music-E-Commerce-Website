@@ -20,11 +20,11 @@ const Category = () => {
   console.log(categoryOnlyData);
   return (
     <div className="bg-[#101829]">
-      <div className="max-w-7xl mx-auto flex gap-4 items-center justify-center py-7 px-4">
+      <div className="max-w-7xl mx-auto flex gap-24 items-center justify-center py-7 px-4">
         {categoryOnlyData.map((item, index) => {
           return (
             <div key={index}>
-              <button className="uppercase bg-gradient-to-r from-red-500 to-purple-500 text-white px-3 py-1 rounded-md cursor-pointer">
+              <button className="uppercase bg-gradient-to-r from-red-500 to-purple-500 text-white px-3 py-1 w-[120px] rounded-md cursor-pointer">
                 {item}
               </button>
             </div>

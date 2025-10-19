@@ -1,10 +1,14 @@
 import React from "react";
 import Carousel from "../Components/Carousel";
+import MidBanner from "../Components/MidBanner";
+import Features from "../Components/features";
 
 const Home = () => {
   return (
     <>
       <Carousel />
+      <MidBanner />
+      <Features />
     </>
   );
 };
