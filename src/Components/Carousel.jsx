@@ -17,7 +17,7 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div className="relative w-screen overflow-hidden">
+    <div className="relative w-full overflow-hidden">
       <Swiper
         modules={[Navigation, Autoplay]}
         navigation={{
@@ -28,7 +28,7 @@ const Carousel = () => {
         loop={true}
         speed={800}
         slidesPerView={1}
-        className="mySwiper w-screen"
+        className="mySwiper w-full"
         // style={{ width: "100vw", height: "100vh" }}
       >
         {data?.slice(0, 7)?.map((item, index) => (
@@ -52,7 +52,7 @@ const Carousel = () => {
                     Shop now
                   </button>
                 </div>
-                <div className="bg-white flex items-center justify-center rounded-full w-[550px] h-[550px] hover:scale-105 transition-all shadow-2xl shadow-red-400">
+                <div className="bg-white flex items-center justify-center rounded-full w-[300px] h-[300px] md:w-[450px] md:h-[450px] lg:w-[550px] lg:h-[550px] hover:scale-105 transition-all shadow-2xl shadow-red-400">
                   <img
                     src={item.image}
                     alt={item.title}
