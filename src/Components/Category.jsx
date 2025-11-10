@@ -12,12 +12,13 @@ const Category = () => {
     return newVal;
   };
 
+  const categoryOnlyData = getUniqueCategory(data, "category");
+  console.log(categoryOnlyData);
+
   useEffect(() => {
     fetchAllProducts();
   }, []);
 
-  const categoryOnlyData = getUniqueCategory(data, "category");
-  console.log(categoryOnlyData);
   return (
     <div className="bg-[#101829]">
       <div className="max-w-7xl mx-auto flex gap-24 items-center justify-center py-7 px-4">
